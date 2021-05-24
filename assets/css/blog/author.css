@@ -39,13 +39,6 @@
     cursor: pointer;
 }
 
-.author-name::after {
-    content: "\e92e";
-    margin-left: 1px;
-    font-family: Alto, sans-serif;
-    font-size: 19px;
-}
-
 .author-social {
     position: absolute;
     top: 100%;

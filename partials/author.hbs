@@ -10,7 +10,9 @@
         <div class="author-wrapper">
             <header class="author-header">
                 <div class="author-header-wrapper">
-                    <h4 class="author-name">{{name}}</h4>
+                    <h4 class="author-name">
+                        <a href="{{url}}">{{name}}</a>
+                    </h4>
                     <div class="author-social">
                         {{#if website}}
                             <a class="author-social-item author-website"
@@ -26,8 +28,6 @@
                                 href="https://twitter.com/{{twitter}}"
                                 target="_blank" rel="noopener">Twitter</a>
                         {{/if}}
-                        <a class="author-social-item author-more"
-                            href={{url}}>More posts</a>
                     </div>
                 </div>
             </header>
